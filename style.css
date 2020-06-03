@@ -20,11 +20,15 @@ section {
 section h1 {
     font-size: 4em;
     font-family: 'Playfair Display', serif;
-    width: 450px;
+    width: 500px;
     position: absolute;
     top: 200px;
     left: 250px;
     text-transform: uppercase;
+}
+
+section span {
+    font-size: 1.5em;
 }
 
 header h1 {
@@ -62,7 +66,7 @@ header ul li:nth-child(5) {
 
 section p {
     position: absolute;
-    top: 43%;
+    top: 52%;
     left: 250px;
     width: 400px;
     font-size: 1.2em;
@@ -71,11 +75,10 @@ section p {
 section a {
     padding: 10px 50px;
     border-radius: 5px;
-    ;
     background: orange;
     color: black;
     position: absolute;
-    bottom: 35%;
+    bottom: 26%;
     left: 250px;
     text-decoration: none;
 }
