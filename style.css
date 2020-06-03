@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(237, 241, 227);
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    height: 100vh;
+    background: url(https://cdn.dribbble.com/users/1789165/screenshots/6819197/attachments/1455528/____.png) no-repeat;
+    background-size: 900px;
+    background-position: 750px 20px;
+}
+
+section h1 {
+    font-size: 4em;
+    font-family: 'Playfair Display', serif;
+    width: 450px;
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    text-transform: uppercase;
+}
+
+header h1 {
+    position: fixed;
+    top: 5px;
+    left: 50px;
+}
+
+header ul li {
+    list-style-type: none;
+    font-size: 1.3em;
+    position: fixed;
+    top: 15px;
+}
+
+header ul li:first-child {
+    left: 200px;
+}
+
+header ul li:nth-child(2) {
+    left: 300px;
+}
+
+header ul li:nth-child(3) {
+    left: 400px;
+}
+
+header ul li:nth-child(4) {
+    left: 500px;
+}
+
+header ul li:nth-child(5) {
+    right: 100px;
+}
+
+section p {
+    position: absolute;
+    top: 43%;
+    left: 250px;
+    width: 400px;
+    font-size: 1.2em;
+}
+
+section a {
+    padding: 10px 50px;
+    border-radius: 5px;
+    ;
+    background: orange;
+    color: black;
+    position: absolute;
+    bottom: 35%;
+    left: 250px;
+    text-decoration: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+    position: fixed;
+    bottom: 30px;
+}
+
+footer a:nth-child(1) {
+    right: 300px;
+}
+
+footer a:nth-child(2) {
+    right: 250px;
+}
+
+footer a:nth-child(3) {
+    right: 200px;
+}
+
+footer a:nth-child(4) {
+    right: 150px;
+}
